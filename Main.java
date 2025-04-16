@@ -5,7 +5,7 @@ public class Main {
         Scanner leitura = new Scanner(System.in);
         String nome = "Elian Barros";
         String tipoDeConta = "Corrente";
-        double saldo = (double)6000.0F;
+        double saldo = 6000;
         String saldoFormatado = String.format("R$%.2f", saldo);
         String menu = "\nOperacoes: \n\n1) Consultar saldos\n2) Receber Valor\n3) Transferir Valor\n4) Sair\n";
         System.out.println("=".repeat(40));
